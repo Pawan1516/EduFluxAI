@@ -1,0 +1,19 @@
+{
+  "name": "edufluxai-fullstack",
+  "version": "1.0.0",
+  "description": "EduFluxAI - Java Full Stack Educational Platform",
+  "scripts": {
+    "install:frontend": "cd frontend && npm install",
+    "install:backend": "cd backend && mvn clean install",
+    "install:all": "npm run install:frontend && npm run install:backend",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "cd backend && mvn spring-boot:run",
+    "build:frontend": "cd frontend && npm run build",
+    "build:backend": "cd backend && mvn clean package",
+    "start:frontend": "cd frontend && npm run preview",
+    "start:backend": "cd backend && java -jar target/backend-1.0.0.jar"
+  },
+  "keywords": ["education", "java", "spring-boot", "react", "typescript"],
+  "author": "EduFluxAI Team",
+  "license": "MIT"
+}
